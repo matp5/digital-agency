@@ -1,0 +1,152 @@
+// media 
+
+@media (max-width: 1300px) {
+    .creatives {
+        h1 {
+            font-size: 15vw;
+            margin-top: .4em;
+        }
+
+        h2 {
+            font-size: 2vw;
+            letter-spacing: 10px;
+        }
+
+    }
+
+    .blog {
+
+        .blog__text {
+            width: 50%;
+        }
+    }
+
+    .mockup {
+        padding-left: 1em;
+
+        img {
+            max-width: 80%;
+        }
+    }
+
+    .contact {
+        form {
+            input {
+                width: 100%;
+                margin: 1em 1em 1em 0;
+            }
+        }
+    }
+
+}
+
+@media (max-width: 900px) {
+    .feature {
+        padding: 5em 1em 2em 1em;
+
+        h2 {
+            font-size: 30px;
+        }
+
+        .feature__text {
+            width: 50%;
+        }
+    }
+
+    .akita {
+        .column {
+            flex: 100%;
+        }
+    }
+
+    .blog {
+        h3 {
+            font-size: 5vw;
+        }
+
+        .blog__text {
+            width: 100%;
+            padding: 0;
+        }
+    }
+
+    .team {
+        h3 {
+            font-size: 5vw;
+        }
+    }
+
+
+    .extra {
+        .extra__text {
+            padding: 3vw;
+
+            img {
+                padding: 1em;
+                height: 100px;
+            }
+        }
+    }
+
+    .mockup {
+
+        .mockup__text {
+            width: 50%;
+
+        }
+
+        h2:nth-child(3) {
+            width: 240px;
+        }
+
+        h2:nth-child(4) {
+            width: 260px;
+        }
+
+        h2:nth-child(5) {
+            width: 280px;
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .feature {
+        .feature__text {
+            width: 100%;
+        }
+    }
+
+    .blog {
+        h3 {
+            line-height: 24px;
+        }
+    }
+
+    .extra {
+        .extra__text {
+            padding: 4vw;
+
+            width: 100vw;
+
+            img {
+                margin-right: .2em;
+                width: 80px;
+            }
+        }
+    }
+
+    .team {
+        .team__text {
+            padding: 1em 0 1em 0;
+        }
+    }
+
+    .contact {
+        .contact__btn {
+            max-width: 150px;
+            height: 44px;
+            font-size: 20px;
+        }
+    }
+
+}
