@@ -24,15 +24,18 @@
 <body>
     <header>
         <nav class='nav'>
-            <img src="img/logo.png" alt="">
+            <a href="#one">
+                <img src="img/logo.png" alt="">
+            </a>
+
 
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Pages</a></li>
-                <li><a href="">Features</a></li>
-                <li><a href="">Extensions</a></li>
-                <li><a href="">Tutorials</a></li>
-                <li><a href="">Contact us </a></li>
+                <li><a href="#one">Home</a></li>
+                <li><a href="#two">Pages</a></li>
+                <li><a href="#three">Blog</a></li>
+                <li><a href="#four">Extensions</a></li>
+                <li><a href="#five">Team</a></li>
+                <li><a href="#six">Contact us </a></li>
                 <a href="#"><img src="img/fb.png" alt=""></a>
                 <a href="#"><img src="img/twitter.png" alt=""></a>
                 <a href="#"><img src="img/skype.png" alt=""></a>
@@ -40,16 +43,16 @@
             </ul>
         </nav>
     </header>
-    <section class='creatives container'>
+    <section class='creatives container' id='one'>
         <h1>creatives</h1>
         <h2>power by psdfreebies.com</h2>
         <div class='container' style="flex-direction:column">
             <p>Scroll Down</p>
-            <a href="" type='button'><i class="arrow down"></i></a>
+            <a href="#features" type='button'><i class="arrow down"></i></a>
         </div>
     </section>
 
-    <section class='feature'>
+    <section class='feature' id='features'>
         <div class='container' style="flex-direction:column">
             <h1>W</h1>
             <h2>we are an awesome agency</h2>
@@ -92,7 +95,7 @@
     </section>
 
     <section>
-        <div class='row akita'>
+        <div class='row akita' id='two'>
             <div class='column' style='background-color:#222222;'>
                 <div class='akita__text'>
                     <p>Jan 4, 2016 | In Culture</p>
@@ -131,7 +134,7 @@
         </div>
     </section>
 
-    <section class='blog'>
+    <section class='blog' id='three'>
         <div class='container' style="flex-direction:column; text-align: center;">
             <h1>B</h1>
             <h2>let's blog</h2>
@@ -227,7 +230,7 @@
     </section>
 
 
-    <section class='mockup'>
+    <section class='mockup' id='four'>
         <div class='container' style='justify-content: space-around'>
             <div class='mockup__text'>
                 <h1>Akita Inu Dog</h1>
@@ -245,7 +248,7 @@
         </div>
     </section>
 
-    <section class='team'>
+    <section class='team' id='five'>
         <div class='container' style="flex-direction:column; text-align: center;">
             <h1>T</h1>
             <h2>our team</h2>
@@ -296,7 +299,7 @@
         </article>
     </section>
 
-    <section class='contact'>
+    <section class='contact' id='six'>
         <div class='container' style="flex-direction:column; text-align: center;">
             <h1>C</h1>
             <h2> We’d love to hear about your project. </h2>
@@ -315,6 +318,10 @@
         <h1>© 2016 PSDfreebies.com – All Right Reserved</h1>
         <h1>Design by PSDFreebies.com</h1>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src='js/nav.js'></script>
 </body>
 
 </html>
