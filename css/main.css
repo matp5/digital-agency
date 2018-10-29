@@ -62,7 +62,7 @@ header {
       margin-right: 15%; }
 
 .creatives {
-  background-image: url("/img/bg1.png");
+  background-image: url("../img/bg1.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   height: 100vh;
@@ -310,7 +310,7 @@ header {
       line-height: 24px; }
 
 .mockup {
-  background-image: url("/img/bg2.png");
+  background-image: url("..//img/bg2.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   padding: 8vw;
@@ -418,7 +418,7 @@ header {
 .contact {
   padding: 4em;
   margin-top: 9em;
-  background-image: url("/img/bg2.png");
+  background-image: url("../img/bg2.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   cursor: context-menu; }
